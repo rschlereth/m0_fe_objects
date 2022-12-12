@@ -76,25 +76,25 @@ console.log(Object.values(email))
 // that relate to each individual Instagram post:
 
 
-//posts = [
-//   {
-//     imageSrc: "./images/beach.png",
-//     caption: "At the beach with my besties",
-//     timestamp: "4:37 PM August 13, 2019",
-//     number_likes: 0,
-//     comments: []
-//   }, 
-//   {
-//     imageSrc: "./images/holiday-party.png",
-//     caption: "What a great holiday party omg",
-//     timestamp: "11:37 PM December 31, 2019",
-//     number_likes: 13,
-//     comments: []
-//   }
-// ];
+posts = [
+  {
+    imageSrc: "./images/beach.png",
+    caption: "At the beach with my besties",
+    timestamp: "4:37 PM August 13, 2019",
+    number_likes: 0,
+    comments: []
+  }, 
+  {
+    imageSrc: "./images/holiday-party.png",
+    caption: "What a great holiday party omg",
+    timestamp: "11:37 PM December 31, 2019",
+    number_likes: 13,
+    comments: []
+  }
+];
 
-// console.log(posts);
-// console.log(posts[0]);
+console.log(posts);
+console.log(posts[0]);
 
 
 // The code snippet above shows an Array with 2 elements. Each element in the Array is a 
@@ -106,3 +106,27 @@ console.log(Object.values(email))
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+emails = [
+{
+  sender: "John Snuckers",
+  subject: "The deal that you've been waiting for!",
+  opened: false,
+  date: "12/4/2022",
+  destination: "Junk"  
+},
+{
+  sender: "Amy Ben",
+  subject: "Check out our new rates",
+  opened: true,
+  date: "12/6/2022",
+  destination: "Inbox"  
+},
+{
+  sender: "Matt Goulding",
+  subject: "Space-age vitamins!",
+  opened: false,
+  date: "12/6/2022",
+  destination: "Junk"  
+}
+]
+console.log(emails)
