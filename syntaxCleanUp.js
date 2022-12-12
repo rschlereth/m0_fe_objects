@@ -9,7 +9,8 @@ var person = {
   weight: "160 lbs" 
 }
 
-var post = { 
+post = 
+{ 
       imageSrc: "./images/beach.png",
       caption: "At the beach with my besties", 
       timestamp: "4:37 PM August 13, 2019",
@@ -18,7 +19,8 @@ var post = {
 }
 
 
-var post2 = {
+post2 = 
+{
       imageSrc: "./images/holiday-party.png",
       caption: "What a great holiday party omg",
       timestamp: "11:37 PM December 31, 2019",
