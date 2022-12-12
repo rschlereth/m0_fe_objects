@@ -7,7 +7,7 @@ var foods = {
 var person = { 
   height: "6 ft", 
   weight: "160 lbs" 
-}
+};
 
 post = 
 { 
@@ -16,7 +16,7 @@ post =
       timestamp: "4:37 PM August 13, 2019",
       number_likes: 0,
       comments: [] 
-}
+};
 
 
 post2 = 
